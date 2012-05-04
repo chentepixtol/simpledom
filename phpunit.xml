@@ -1,0 +1,9 @@
+<phpunit 
+    verbose="true" bootstrap="autoload.php">
+   <filter>
+    <blacklist>
+      <directory suffix=".php">vendor</directory>
+      <directory suffix=".php">Test</directory>
+    </blacklist>
+  </filter>
+</phpunit>
