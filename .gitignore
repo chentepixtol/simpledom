@@ -1,4 +1,7 @@
 .buildpath
 .settings
 .project
-
+composer.phar
+vendor/.composer/
+vendor/autoload.php
+vendor/composer/
